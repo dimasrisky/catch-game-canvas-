@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+@font-face{
+    font-family: 'Offbit';
+    src: url('assets/font/OffBit-Regular.ttf');
+}
+@font-face{
+    font-family: 'Offbit-bold';
+    src: url('assets/font/OffBit-Bold.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas{
+    border: 3px solid black;
+    background-image: url('assets/img/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
